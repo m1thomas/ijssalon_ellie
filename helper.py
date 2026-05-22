@@ -22,3 +22,9 @@ def onderstreep(tekst=""):
     uit.append(tekst)
     uit.append("=" * len(tekst))
     return uit
+
+# Functie som(), invoer een enkele dictionary, telt alle waarden op
+def som(inkomsten):
+    values = inkomsten.values()
+    return sum(values)
+
